@@ -1,27 +1,32 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "target": "ES2022",
+    "target": "ES2015",
     "useDefineForClassFields": true,
     "module": "ESNext",
     "skipLibCheck": true,
     "outDir": "./dist",
 
     /* Bundler mode */
+    "esModuleInterop": true,
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "noEmit": false,
-    "declaration": true,
-    "emitDeclarationOnly": true,
+    "noEmit": true,
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "test"]
 }

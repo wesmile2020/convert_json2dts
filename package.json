@@ -12,12 +12,15 @@
     }
   },
   "scripts": {
-    "build": "vite build && tsc --emitDeclarationOnly --outDir ./dist"
+    "build": "vite build",
+    "test": "vitest"
   },
-
   "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@vitest/coverage-v8": "^4.0.8",
     "typescript": "^5.9.3",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vitest": "^4.0.8"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"

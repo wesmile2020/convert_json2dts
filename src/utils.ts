@@ -14,7 +14,14 @@ export function isBoolean(value: unknown): value is boolean {
   return typeof value === 'boolean';
 }
 
+export function isNull(value: unknown): value is null {
+  return value === null;
+}
+
 export function getWhitespace(length: number): string {
+  if (length < 0) {
+    return '';
+  }
   return ' '.repeat(length);
 }
 
