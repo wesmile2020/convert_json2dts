@@ -1,4 +1,4 @@
-import { type JSON2Dts as JSON2DtsType } from '~/public/index';
+import { type JSON2Dts as JSON2DtsType } from '~/public/index.d';
 
 import {
   isNumber,
