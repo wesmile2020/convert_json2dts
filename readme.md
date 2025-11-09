@@ -1,4 +1,4 @@
-# JSON2Dts
+# convert_json2dts
 
 a lib for converting JSON to TypeScript interfaces
 
@@ -7,6 +7,7 @@ a lib for converting JSON to TypeScript interfaces
 ```bash
 npm install convert_json2dts
 ```
+
 ## Usage
 
 ```typescript
