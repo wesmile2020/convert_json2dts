@@ -12,6 +12,8 @@
     }
   },
   "scripts": {
+    "dev": "vite --config vite.config.preview.ts",
+    "build:preview": "vite build --config vite.config.preview.ts",
     "build": "vite build",
     "test": "vitest"
   },
@@ -24,5 +26,8 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.54.0"
   }
 }

@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+#code {
+  width: 50%;
+  height: 100%;
+}
+
+#output {
+  width: 50%;
+  height: 100%;
+}
