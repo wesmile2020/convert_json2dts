@@ -2,6 +2,9 @@ import { defineConfig } from 'vitest/config';
 import path from 'path';
 
 export default defineConfig({
+  build: {
+    outDir: './docs'
+  },
   resolve: {
     alias: {
       '~': __dirname,
