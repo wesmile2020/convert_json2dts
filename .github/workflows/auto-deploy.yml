@@ -32,5 +32,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: online-preview # 部署到的目标分支
+          branch: pages # 部署到的目标分支
           folder: docs # 你项目构建后生成的静态文件目录
