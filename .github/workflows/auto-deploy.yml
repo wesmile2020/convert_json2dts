@@ -2,7 +2,7 @@ name: Auto Deploy to GitHub Pages 🚀
 
 on:
   push:
-    branches: [ "inspect" ] # 当向main分支推送代码时触发此工作流
+    branches: [ "inspect" ] # 当向inspect分支推送代码时触发此工作流
 
 permissions:
   contents: write
