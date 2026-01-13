@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
@@ -12,10 +12,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  test: {
-    coverage: {
-      enabled: true,
-      provider: 'v8',
-    }
-  }
 });
